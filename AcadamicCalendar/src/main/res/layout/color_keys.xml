@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:visibility="visible"
+    android:theme="@android:style/Theme.Holo.NoActionBar"
+    android:background="@android:color/transparent"
+    style="@style/Theme.AppCompat.NoActionBar">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/orientation_week"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#ffffff"
+        android:text="Orientation Week"
+        android:textSize="20sp"
+        android:layout_weight="0.05"
+        android:textAlignment="center"
+        android:background="@color/Orientation" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lectures_period"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/lecture_period"
+        android:textColor="#ffffff"
+        android:text="lectures Period"
+        android:textSize="20sp"
+        android:layout_weight="0.05"
+        android:textAlignment="center" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/exam_period"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/exam_period"
+        android:textColor="#ffffff"
+        android:text="Examination Period"
+        android:textSize="20sp"
+        android:layout_weight="0.05"
+        android:textAlignment="center" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/public_holiday"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/public_holiday"
+        android:textColor="#ffffff"
+        android:text="Public Holiday"
+        android:textSize="20sp"
+        android:layout_weight="0.05"
+        android:textAlignment="center" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/weekends"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/weekends"
+        android:textColor="#ffffff"
+        android:text="Weekends"
+        android:textSize="20sp"
+        android:layout_weight="0.05"
+        android:textAlignment="center" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/study_break"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/study_break"
+        android:textColor="#ffffff"
+        android:text="Study Break"
+        android:textSize="20sp"
+        android:layout_weight="0.05"
+        android:textAlignment="center" />
+
+
+
+
+</LinearLayout>

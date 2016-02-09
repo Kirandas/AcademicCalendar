@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.academiccalendar"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/calendar_icon"
+        android:label="Academic Calendar"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MonthView"
+            android:label="Academic Calendar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!-- <activity -->
+        <!-- android:name="com.Academic_Calendar.TrimesterView.TrimesterView" -->
+        <!-- android:label="@string/title_activity_trimester_view" /> -->
+        <activity
+            android:name=".weekview.BasicActivity"
+            android:label="Academic Calendar" />
+        <activity android:name=".trisem.TriSemAct"></activity>
+        <activity
+            android:name="com.academiccalendar.color_keys"
+            android:theme="@style/popup_window"
+            >
+        </activity>
+
+    </application>
+
+</manifest>
