@@ -3,54 +3,74 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:weightSum="1"
-    android:visibility="visible"
-    android:theme="@android:style/Theme.Holo.NoActionBar"
+    android:theme="@android:style/Theme.NoTitleBar"
     android:background="@android:color/transparent"
-    style="@style/Theme.AppCompat.NoActionBar">
+    style="@style/popup_window">
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/orientation_week"
-        android:layout_gravity="center_horizontal"
-        android:textColor="#ffffff"
+        android:textColor="#121010"
         android:text="Orientation Week"
-        android:textSize="20sp"
+        android:textSize="20dp"
         android:layout_weight="0.05"
         android:textAlignment="center"
-        android:background="@color/Orientation" />
+        android:background="@color/Orientation"
+        android:textStyle="bold"
+        android:textIsSelectable="true"
+        android:gravity="center" />
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/lectures_period"
         android:layout_gravity="center_horizontal"
         android:background="@color/lecture_period"
-        android:textColor="#ffffff"
+        android:textColor="#121010"
         android:text="lectures Period"
-        android:textSize="20sp"
+        android:textSize="20dp"
         android:layout_weight="0.05"
-        android:textAlignment="center" />
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:gravity="center" />
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/exam_period"
         android:layout_gravity="center_horizontal"
         android:background="@color/exam_period"
-        android:textColor="#ffffff"
+        android:textColor="#121010"
         android:text="Examination Period"
-        android:textSize="20sp"
+        android:textSize="20dp"
         android:layout_weight="0.05"
-        android:textAlignment="center" />
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/study_break"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/study_break"
+        android:textColor="#121010"
+        android:text="Study Break"
+        android:textSize="20dp"
+        android:layout_weight="0.05"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:gravity="center" />
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/public_holiday"
         android:layout_gravity="center_horizontal"
         android:background="@color/public_holiday"
-        android:textColor="#ffffff"
+        android:textColor="#121010"
         android:text="Public Holiday"
-        android:textSize="20sp"
+        android:textSize="20dp"
         android:layout_weight="0.05"
-        android:textAlignment="center" />
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:gravity="center" />
 
     <TextView
         android:layout_width="match_parent"
@@ -58,22 +78,65 @@
         android:id="@+id/weekends"
         android:layout_gravity="center_horizontal"
         android:background="@color/weekends"
-        android:textColor="#ffffff"
+        android:textColor="#121010"
         android:text="Weekends"
-        android:textSize="20sp"
+        android:textSize="20dp"
         android:layout_weight="0.05"
-        android:textAlignment="center" />
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textStyle="bold" />
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lecture_recess"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/lecture_recess"
+        android:textColor="#121010"
+        android:text="Lecture Recess"
+        android:textSize="20dp"
+        android:layout_weight="0.05"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:gravity="center" />
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/study_break"
+        android:id="@+id/grade_release"
         android:layout_gravity="center_horizontal"
-        android:background="@color/study_break"
-        android:textColor="#ffffff"
-        android:text="Study Break"
-        android:textSize="20sp"
+        android:background="@color/grade_release"
+        android:textColor="#121010"
+        android:text="Grade Release "
+        android:textSize="20dp"
         android:layout_weight="0.05"
-        android:textAlignment="center" />
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:gravity="center" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/census_date"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/censuse_date"
+        android:textColor="#121010"
+        android:text="Census Date"
+        android:textSize="20dp"
+        android:layout_weight="0.05"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:gravity="center" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/fees_due"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/fee_duedate"
+        android:textColor="#121010"
+        android:text="Fees Due Date"
+        android:textSize="20dp"
+        android:layout_weight="0.05"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:gravity="center" />
 
 
 

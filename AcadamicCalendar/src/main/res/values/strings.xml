@@ -15,4 +15,9 @@
     <string name="title_activity_asynchronous">Asynchronous Events</string>
     <string name="async_error">Could not download events from the internet</string>
     <string name="keys">"?"</string>
+
+    <string name="title_activity_first_page">First_page</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_home_page">home_page</string>
 </resources>

@@ -42,6 +42,7 @@ public class MonthView extends AppCompatActivity {
 
 
 
+
         //        Adding colors to dates ! ! !
 
         Calendar cal = Calendar.getInstance(Locale.getDefault());
@@ -115,7 +116,7 @@ public class MonthView extends AppCompatActivity {
         cal.set(2016, Calendar.MARCH, 30);
         g.put(cal.getTime(), R.color.lecture_period);
         cal.set(2016, Calendar.MARCH, 31);
-        g.put(cal.getTime(), R.color.weekends);
+        g.put(cal.getTime(), R.color.lecture_period);
         cal.set(2016, Calendar.MARCH, 05);
         g.put(cal.getTime(), R.color.weekends);
         cal.set(2016, Calendar.MARCH, 06);
@@ -131,6 +132,110 @@ public class MonthView extends AppCompatActivity {
         cal.set(2016, Calendar.MARCH, 26);
         g.put(cal.getTime(),R.color.weekends);
         cal.set(2016, Calendar.MARCH, 27);
+        g.put(cal.getTime(),R.color.weekends);
+
+
+//        APRIL MONTH
+        for(int i = 1; i< 16; i++) {
+            cal.set(2016, Calendar.APRIL, i);
+            g.put(cal.getTime(),R.color.lecture_period);}
+        for(int i = 18; i< 23; i++) {
+            cal.set(2016, Calendar.APRIL, i);
+            g.put(cal.getTime(),R.color.study_break);}
+        for(int i = 26; i< 30; i++) {
+            cal.set(2016, Calendar.APRIL, i);
+            g.put(cal.getTime(),R.color.lecture_period);}
+        cal.set(2016, Calendar.APRIL, 7);
+        g.put(cal.getTime(),R.color.censuse_date);
+        cal.set(2016, Calendar.APRIL, 25);
+        g.put(cal.getTime(),R.color.public_holiday);
+        cal.set(2016, Calendar.APRIL, 2);
+        g.put(cal.getTime(),R.color.weekends);
+        cal.set(2016, Calendar.APRIL, 3);
+        g.put(cal.getTime(),R.color.weekends);
+        cal.set(2016, Calendar.APRIL, 9);
+        g.put(cal.getTime(),R.color.weekends);
+        cal.set(2016, Calendar.APRIL,10);
+        g.put(cal.getTime(),R.color.weekends);
+        cal.set(2016, Calendar.APRIL, 16);
+        g.put(cal.getTime(),R.color.weekends);
+        cal.set(2016, Calendar.APRIL, 17);
+        g.put(cal.getTime(),R.color.weekends);
+        cal.set(2016, Calendar.APRIL, 23);
+        g.put(cal.getTime(),R.color.weekends);
+        cal.set(2016, Calendar.APRIL, 24);
+        g.put(cal.getTime(),R.color.weekends);
+        cal.set(2016, Calendar.APRIL, 30);
+        g.put(cal.getTime(),R.color.weekends);
+
+//        MAY MONTH
+
+        cal.set(2016, Calendar.MAY, 1);
+        g.put(cal.getTime(),R.color.weekends);
+        cal.set(2016, Calendar.MAY, 2);
+        g.put(cal.getTime(),R.color.public_holiday);
+        for(int i = 3; i< 31; i++) {
+            cal.set(2016, Calendar.MAY, i);
+            g.put(cal.getTime(),R.color.lecture_period);}
+        cal.set(2016, Calendar.MAY, 31);
+        g.put(cal.getTime(), R.color.study_break);
+        cal.set(2016, Calendar.MAY, 7);
+        g.put(cal.getTime(), R.color.weekends);
+        cal.set(2016, Calendar.MAY, 8);
+        g.put(cal.getTime(), R.color.weekends);
+        cal.set(2016, Calendar.MAY, 14);
+        g.put(cal.getTime(), R.color.weekends);
+        cal.set(2016, Calendar.MAY, 15);
+        g.put(cal.getTime(), R.color.weekends);
+        cal.set(2016, Calendar.MAY, 21);
+        g.put(cal.getTime(), R.color.weekends);
+        cal.set(2016, Calendar.MAY, 22);
+        g.put(cal.getTime(), R.color.weekends);
+        cal.set(2016, Calendar.MAY, 28);
+        g.put(cal.getTime(),R.color.weekends);
+        cal.set(2016, Calendar.MAY, 29);
+        g.put(cal.getTime(),R.color.weekends);
+
+//        JUNE MONTH
+        for(int i = 1; i< 4; i++) {
+            cal.set(2016, Calendar.JUNE, i);
+            g.put(cal.getTime(),R.color.study_break);}
+        for(int i = 6; i< 18; i++) {
+            cal.set(2016, Calendar.JUNE, i);
+            g.put(cal.getTime(),R.color.exam_period);}
+        for(int i = 20; i< 30; i++) {
+            cal.set(2016, Calendar.JUNE, i);
+            g.put(cal.getTime(),R.color.lecture_recess);}
+        cal.set(2016, Calendar.JUNE, 30);
+        g.put(cal.getTime(), R.color.lecture_recess);
+        cal.set(2016, Calendar.JUNE, 4);
+        g.put(cal.getTime(), R.color.weekends);
+        cal.set(2016, Calendar.JUNE, 5);
+        g.put(cal.getTime(),R.color.weekends);
+        cal.set(2016, Calendar.JUNE, 11);
+        g.put(cal.getTime(),R.color.weekends);
+        cal.set(2016, Calendar.JUNE, 12);
+        g.put(cal.getTime(),R.color.weekends);
+        cal.set(2016, Calendar.JUNE, 18);
+        g.put(cal.getTime(),R.color.weekends);
+        cal.set(2016, Calendar.JUNE, 19);
+        g.put(cal.getTime(),R.color.weekends);
+        cal.set(2016, Calendar.JUNE, 25);
+        g.put(cal.getTime(),R.color.weekends);
+        cal.set(2016, Calendar.JUNE, 26);
+        g.put(cal.getTime(),R.color.weekends);
+
+//        JULY MONTH
+        for(int i = 1; i< 9; i++) {
+            cal.set(2016, Calendar.JULY, i);
+            g.put(cal.getTime(),R.color.lecture_recess);}
+        cal.set(2016, Calendar.JULY, 2);
+        g.put(cal.getTime(),R.color.weekends);
+        cal.set(2016, Calendar.JULY, 3);
+        g.put(cal.getTime(),R.color.weekends);
+        cal.set(2016, Calendar.JULY, 9);
+        g.put(cal.getTime(),R.color.weekends);
+        cal.set(2016, Calendar.JULY, 10);
         g.put(cal.getTime(),R.color.weekends);
 
 
@@ -151,7 +256,7 @@ public class MonthView extends AppCompatActivity {
         // Floating button
 
         ImageView icon = new ImageView(this); // Create an icon
-        icon.setImageResource(R.mipmap.ic_launcher);
+        icon.setImageResource(R.mipmap.calendar_icon);
 
         FloatingActionButton actionButton = new FloatingActionButton.Builder(this)
                 .setContentView(icon)
@@ -163,16 +268,17 @@ public class MonthView extends AppCompatActivity {
         ImageView trimestericon = new ImageView(this);
         trimestericon.setImageResource(R.mipmap.calendar_year_icon);
 
+
+
+        ImageView monthicon = new ImageView(this);
+        monthicon.setImageResource(R.mipmap.month);
+        TextView tv = new TextView(this);
+        tv.setText("TriSem");
         ImageView weekicon = new ImageView(this);
         weekicon.setImageResource(R.mipmap.week_icon);
 
-        ImageView monthicon = new ImageView(this);
-        monthicon.setImageResource(R.mipmap.calendar_month);
-        TextView tv = new TextView(this);
-        tv.setText("TriSem");
-
         SubActionButton button_trimester = itemBuilder.setContentView(trimestericon).build();
-//        itemBuilder.setBackgroundDrawable(getResources().getDrawable(R.mipmap.calendar_year_icon));
+//        itemBuilder.setBackgroundDrawable(getResources().getDrawable(R.color.));
         itemBuilder.setContentView(tv);
         SubActionButton button_week = itemBuilder.setContentView(weekicon).build();
 //        itemBuilder.setBackgroundDrawable(getResources().getDrawable(R.mipmap.week_icon));
@@ -217,13 +323,19 @@ public class MonthView extends AppCompatActivity {
         });
         FloatingActionMenu actionMenu = new FloatingActionMenu.Builder(this)
                 .addSubActionView(button_trimester)
-                .addSubActionView(button_week)
                 .addSubActionView(button_month)
+                .addSubActionView(button_week)
+
                 .attachTo(actionButton)
                 .build();
 
 
         // Setup caldroid fragment
+
+
+
+
+
 
 
         // **** This is to show customized fragment. If you want customized
@@ -297,14 +409,15 @@ public class MonthView extends AppCompatActivity {
                     Toast.LENGTH_SHORT).show();
         }
 
-        @Override
-        public void onCaldroidViewCreated() {
-            if (caldroidFragment.getLeftArrowButton() != null) {
-                Toast.makeText(getApplicationContext(),
-                        "Caldroid view is created", Toast.LENGTH_SHORT)
-                        .show();
-            }
-        }
+
+//        @Override
+//        public void onCaldroidViewCreated() {
+//            if (caldroidFragment.getLeftArrowButton() != null) {
+//                Toast.makeText(getApplicationContext(),
+//                        "Caldroid view is created", Toast.LENGTH_SHORT)
+//                        .show();
+//            }
+//        }
 
 
     };
