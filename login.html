@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>James Cook University</title>
+    
+    <meta name="robots" content="noindex, nofollow">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <!-- jQuery CDN -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="//oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Zabuto -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/example.css">
+
+    <!-- Zabuto Calendar -->
+    <script src="../zabuto_calendar.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../zabuto_calendar.min.css">
+
+</head>
+<body>
+   
+   
+
+<!-- container -->
+<div class="container example" style='background-image: url("login.jpg")'>
+   
+
+    <hr>
+	<h3><b> JAMES COOK UNIVERSITY ACADEMIC CALENDAR</b></h3>
+    <br>
+    <br>
+    <br>
+          
+        <h2 class="form-signin-heading">Sign In</h2>
+        
+        
+        <label for="inputEmail" class="sr-only">User Name</label >
+        <input  id="inputEmail" class="form-control" placeholder="username" required autofocus>
+        <label for="inputPassword" class="sr-only">Password</label>
+        <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>     
+        <button class="btn btn-lg btn-primary btn-block"  id="submit">Login</button>
+    
+
+	 <script type="application/javascript">
+					
+					
+					
+				$( "#submit" ).click(function() {
+					//alert("btn clicked");
+					var userName=$('#inputEmail').val();
+					var password=$('#inputPassword').val();
+					if(userName=="admin" && password=="admin"){
+					location.href="action.html";
+					}
+					else{
+					alert("credentials wrong");
+					}
+					
+				});
+				
+            </script>
+
+	
+	
+</div>
+<!-- /container -->
+
+</body>
+</html>
